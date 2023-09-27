@@ -1,0 +1,72 @@
+package edu.kh.todo.model.service;
+
+import java.sql.Connection;
+import java.util.List;
+
+import static edu.kh.todo.common.JDBCTemplate.*;
+import edu.kh.todo.model.dao.TodoDAO;
+import edu.kh.todo.model.dto.Todo;
+
+
+
+public class TodoService {
+	
+	private TodoDAO dao = new TodoDAO();
+
+	public List<Todo> selectAll(int memberNo) throws Exception{
+		Connection conn = getConnection();
+		
+		List<Todo> tdList = dao.selectAll(conn, memberNo);
+		
+		close(conn);
+		
+		return tdList;
+		
+		
+	}
+
+	public int ist(String subject, String memo, int memberNumber) throws Exception {
+		Connection conn = getConnection();
+		
+		int result = dao.ist(conn, subject, memo, memberNumber);
+				
+		close(conn);
+		return result;
+	}
+
+	public int deleteTodo(String deleteNum) throws Exception {
+		Connection conn = getConnection();
+		
+		int result = dao.deleteTodo(conn, deleteNum);
+		
+		close(conn);
+		return result;
+	}
+
+	public int update(String subject, String memo, String modifyNum) throws Exception {
+		Connection conn = getConnection();
+		
+		int result = dao.update(conn, subject, memo, modifyNum);
+		
+		close(conn);
+		return result;
+		
+		
+	}
+
+	public List<Todo> nowtodo(String modifyNum) throws Exception {
+		Connection conn = getConnection();
+		
+		List<Todo> tdList = dao.nowTodo(conn, modifyNum);
+		
+		close(conn);
+		return tdList;
+	}
+
+	
+		
+
+	
+	
+
+}

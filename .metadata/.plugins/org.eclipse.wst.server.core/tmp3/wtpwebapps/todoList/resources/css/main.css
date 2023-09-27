@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#formcontainer {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+#todoList{
+	display: flex;
+}

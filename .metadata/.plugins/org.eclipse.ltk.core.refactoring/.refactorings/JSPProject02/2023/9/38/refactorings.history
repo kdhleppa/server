@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;boardProject/src/main/java/edu.kh.project.common&apos;&#x0D;&#x0A;- Original project: &apos;JSPProject02&apos;&#x0D;&#x0A;- Destination element: &apos;boardProject/src/main/java/edu.kh.project.common&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     edu.kh.jsp.common.JDBCTemplate.java&#x0D;&#x0A;     edu.kh.jsp.common.CreateXMLFile.java&#x0D;&#x0A;     edu.kh.jsp.common.LoadXMLFile.java" description="Copy compilation units" destination="=boardProject/src\/main\/java&lt;edu.kh.project.common" element1="/src\/main\/java&lt;edu.kh.jsp.common{JDBCTemplate.java" element2="/src\/main\/java&lt;edu.kh.jsp.common{CreateXMLFile.java" element3="/src\/main\/java&lt;edu.kh.jsp.common{LoadXMLFile.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695278574468" units="3" version="1.0"/>
+</session>

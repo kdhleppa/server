@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.util.net.ApplicationBufferHandler"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="oracle.sql.ARRAY"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.model.dto.Book"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.service.StudentService"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.model.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.common.JDBCTemplate"/>
+    <fullyQualifiedTypeName name="edu.kh.project.member.model.dao.MemberDAO"/>
+    <fullyQualifiedTypeName name="edu.kh.project.common.JDBCTemplate"/>
+    <fullyQualifiedTypeName name="edu.kh.project.member.model.service.MemberService"/>
+    <fullyQualifiedTypeName name="edu.kh.project.member.model.dto.Member"/>
+    <fullyQualifiedTypeName name="edu.kh.member.model.service.MemberService"/>
+    <fullyQualifiedTypeName name="edu.kh.member.model.dao.MemberDAO"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="edu.kh.todo.common.JDBCTemplate"/>
+    <fullyQualifiedTypeName name="edu.kh.todo.model.dto.Todo"/>
+    <fullyQualifiedTypeName name="edu.kh.member.model.dto.Member"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>
